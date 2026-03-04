@@ -1,6 +1,4 @@
-TEMPLATE 1: STANDARD RESIGNATION (2 WEEKS NOTICE)
-
-Subject: Resignation – [Your Name]
+**Subject:** Resignation – [Your Name]
 
 Dear [Manager Name],
 
@@ -17,11 +15,3 @@ Thank you for the opportunities and support during my tenure. I wish [Company Na
 
 Best regards,  
 [Your Name]
-
----
-HOW TO USE:
-1. Replace all [placeholders] with your details
-2. Copy-paste into email
-3. Send to your manager
-4. BCC yourself (paper trail)
-5. Schedule meeting same day

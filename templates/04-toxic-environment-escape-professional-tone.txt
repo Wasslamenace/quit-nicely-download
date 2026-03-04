@@ -1,6 +1,4 @@
-TEMPLATE 4: TOXIC ENVIRONMENT ESCAPE (PROFESSIONAL TONE)
-
-Subject: Resignation – [Your Name]
+**Subject:** Resignation – [Your Name]
 
 Dear [Manager Name],
 
@@ -15,17 +13,8 @@ Thank you for the opportunity.
 Best regards,  
 [Your Name]
 
----
-CRITICAL NOTES:
+**Notes:**  
 - Keep it SHORT (toxic environments don't deserve detailed explanations)
 - NEUTRAL tone (no accusations—HR will try to use emotion against you)
 - DOCUMENT everything (emails, Slack messages, incidents—you may need them later)
 - CONSULT LAWYER if harassment/discrimination (this template is for "professional escape," not legal action)
-
-HOW TO USE:
-1. Replace [placeholders]
-2. Keep it under 100 words
-3. Send via EMAIL (paper trail)
-4. BCC personal email
-5. Do NOT engage in exit interview arguments
-6. Just leave

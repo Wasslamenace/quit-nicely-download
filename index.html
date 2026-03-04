@@ -14,81 +14,81 @@
             line-height: 1.6;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             background: white;
-            border-radius: 12px;
-            padding: 40px;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            border-radius: 16px;
+            padding: 50px;
+            box-shadow: 0 25px 70px rgba(0,0,0,0.4);
         }
         h1 {
-            font-size: 2.5em;
+            font-size: 3em;
             color: #667eea;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            text-align: center;
         }
         .subtitle {
-            font-size: 1.2em;
+            font-size: 1.3em;
             color: #666;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
+            text-align: center;
         }
         .section {
-            margin: 30px 0;
+            margin: 40px 0;
         }
         .section h2 {
-            font-size: 1.5em;
+            font-size: 1.8em;
             color: #333;
-            margin-bottom: 15px;
-            border-bottom: 2px solid #667eea;
-            padding-bottom: 5px;
+            margin-bottom: 20px;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
         }
-        .file-list {
+        .file-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
             list-style: none;
         }
-        .file-list li {
-            margin: 10px 0;
-        }
-        .file-list a {
-            display: inline-block;
-            padding: 12px 20px;
-            background: #f0f0f0;
+        .file-grid li a {
+            display: block;
+            padding: 15px 20px;
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
             color: #333;
             text-decoration: none;
-            border-radius: 6px;
-            transition: all 0.3s;
-        }
-        .file-list a:hover {
-            background: #667eea;
-            color: white;
-            transform: translateX(5px);
-        }
-        .download-all {
-            display: inline-block;
-            padding: 15px 30px;
-            background: #667eea;
-            color: white;
-            text-decoration: none;
             border-radius: 8px;
-            font-size: 1.1em;
-            font-weight: 600;
-            margin-top: 20px;
             transition: all 0.3s;
+            border-left: 4px solid #667eea;
+            font-size: 0.95em;
         }
-        .download-all:hover {
-            background: #5568d3;
-            transform: scale(1.05);
+        .file-grid li a:hover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
         }
         .note {
-            background: #fff3cd;
-            border-left: 4px solid #ffc107;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
+            background: linear-gradient(135deg, #fff3cd 0%, #ffe8a1 100%);
+            border-left: 5px solid #ffc107;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 8px;
+            font-size: 1.05em;
         }
         .footer {
             text-align: center;
-            margin-top: 40px;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 2px solid #eee;
             color: #999;
-            font-size: 0.9em;
+            font-size: 0.95em;
+        }
+        .footer a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -98,51 +98,48 @@
         <p class="subtitle">Thanks for your purchase! Download your resignation templates below.</p>
 
         <div class="note">
-            <strong>📥 Click any file to download directly</strong> — No ZIP extraction needed!
+            <strong>📥 Click any file to download directly</strong> — No ZIP extraction needed! All files open in Notepad/Word/Google Docs.
         </div>
 
         <div class="section">
             <h2>📄 Resignation Templates (20)</h2>
-            <ul class="file-list">
-                <li><a href="templates/01-standard-resignation.txt" download>01 - Standard Resignation (2 weeks)</a></li>
-                <li><a href="templates/02-executive-departure.txt" download>02 - Executive Departure (C-level)</a></li>
+            <ul class="file-grid">
+                <li><a href="templates/01-standard-resignation-2-weeks-notice.txt" download>01 - Standard Resignation (2 Weeks)</a></li>
+                <li><a href="templates/02-executive-departure-c-level-transition.txt" download>02 - Executive Departure (C-Level)</a></li>
                 <li><a href="templates/03-startup-founder-exit.txt" download>03 - Startup Founder Exit</a></li>
-                <li><a href="templates/04-toxic-environment-escape.txt" download>04 - Toxic Environment Escape</a></li>
+                <li><a href="templates/04-toxic-environment-escape-professional-tone.txt" download>04 - Toxic Environment Escape</a></li>
                 <li><a href="templates/05-better-offer-transition.txt" download>05 - Better Offer Transition</a></li>
-                <li><a href="templates/06-career-pivot.txt" download>06 - Career Pivot</a></li>
-                <li><a href="templates/07-freelance-entrepreneurship.txt" download>07 - Freelance / Entrepreneurship Leap</a></li>
+                <li><a href="templates/06-career-pivot-industry-change.txt" download>06 - Career Pivot (Industry Change)</a></li>
+                <li><a href="templates/07-freelance-entrepreneurship-leap.txt" download>07 - Freelance / Entrepreneurship Leap</a></li>
                 <li><a href="templates/08-family-personal-reasons.txt" download>08 - Family / Personal Reasons</a></li>
-                <li><a href="templates/09-relocation.txt" download>09 - Relocation</a></li>
-                <li><a href="templates/10-immediate-resignation.txt" download>10 - Immediate Resignation (hostile)</a></li>
-                <li><a href="templates/11-mutual-agreement.txt" download>11 - Mutual Agreement</a></li>
-                <li><a href="templates/12-retirement.txt" download>12 - Retirement</a></li>
+                <li><a href="templates/09-relocation-geographic-move.txt" download>09 - Relocation (Geographic Move)</a></li>
+                <li><a href="templates/10-immediate-resignation-hostile-environment.txt" download>10 - Immediate Resignation (Hostile)</a></li>
+                <li><a href="templates/11-mutual-agreement-performance-issues.txt" download>11 - Mutual Agreement (Performance)</a></li>
+                <li><a href="templates/12-retirement-end-of-career.txt" download>12 - Retirement (End of Career)</a></li>
                 <li><a href="templates/13-sabbatical-extended-break.txt" download>13 - Sabbatical / Extended Break</a></li>
-                <li><a href="templates/14-layoff-preemption.txt" download>14 - Layoff Preemption</a></li>
-                <li><a href="templates/15-return-to-school.txt" download>15 - Return to School (MBA, Master's)</a></li>
-                <li><a href="templates/16-health-reasons.txt" download>16 - Health Reasons</a></li>
-                <li><a href="templates/17-burnout.txt" download>17 - Burnout</a></li>
+                <li><a href="templates/14-layoff-preemption-resign-before-being-let-go.txt" download>14 - Layoff Preemption</a></li>
+                <li><a href="templates/15-return-to-school-graduate-degree.txt" download>15 - Return to School (Graduate Degree)</a></li>
+                <li><a href="templates/16-health-reasons-professional-boundary.txt" download>16 - Health Reasons</a></li>
+                <li><a href="templates/17-burnout-honest-but-professional.txt" download>17 - Burnout (Honest but Professional)</a></li>
                 <li><a href="templates/18-mission-values-misalignment.txt" download>18 - Mission / Values Misalignment</a></li>
-                <li><a href="templates/19-contract-temporary-ending.txt" download>19 - Contract/Temporary Role Ending</a></li>
-                <li><a href="templates/20-just-not-working-out.txt" download>20 - "It's Just Not Working Out"</a></li>
+                <li><a href="templates/19-contracttemporary-role-ending.txt" download>19 - Contract/Temporary Role Ending</a></li>
+                <li><a href="templates/20-its-just-not-working-out-diplomatic-exit.txt" download>20 - "It's Just Not Working Out"</a></li>
             </ul>
         </div>
 
         <div class="section">
-            <h2>🤖 AI Bonus Prompts (5)</h2>
-            <ul class="file-list">
-                <li><a href="bonus_prompts/01-personalize-standard-template.txt" download>01 - Personalize Standard Template</a></li>
-                <li><a href="bonus_prompts/02-exit-interview-prep.txt" download>02 - Exit Interview Prep</a></li>
-                <li><a href="bonus_prompts/03-counteroffer-response.txt" download>03 - Counteroffer Response Strategy</a></li>
-                <li><a href="bonus_prompts/04-resignation-timing.txt" download>04 - Resignation Timing Strategy</a></li>
-                <li><a href="bonus_prompts/05-linkedin-announcement.txt" download>05 - LinkedIn Announcement</a></li>
-            </ul>
+            <h2>🤖 AI Bonus Prompts (Coming Soon)</h2>
+            <p style="color: #999; font-style: italic;">5 ChatGPT/Claude prompts will be added shortly. Check back in 24 hours!</p>
         </div>
 
         <div class="section">
-            <h2>📖 Guides</h2>
-            <ul class="file-list">
-                <li><a href="README.txt" download>Quick Start Guide</a></li>
-            </ul>
+            <h2>📖 How to Use</h2>
+            <ol style="margin-left: 20px; line-height: 2;">
+                <li><strong>Click any template</strong> above to download it</li>
+                <li><strong>Open in any text editor</strong> (Notepad, Word, Google Docs)</li>
+                <li><strong>Replace</strong> [Your Name], [Manager Name], [Company Name], etc.</li>
+                <li><strong>Copy-paste into your email</strong> and send!</li>
+            </ol>
         </div>
 
         <div class="note">
@@ -150,8 +147,9 @@
         </div>
 
         <div class="footer">
-            <p>Questions? Email me: <a href="mailto:tallalwassim131@gmail.com" style="color: #667eea;">tallalwassim131@gmail.com</a></p>
-            <p style="margin-top: 10px;">Good luck with your resignation! 🚀</p>
+            <p>Questions? Email me: <a href="mailto:tallalwassim131@gmail.com">tallalwassim131@gmail.com</a></p>
+            <p style="margin-top: 15px; font-size: 1.1em;">Good luck with your resignation! 🚀</p>
+            <p style="margin-top: 20px; font-size: 0.85em; color: #ccc;">© 2026 Quit Nicely — All templates included with your purchase</p>
         </div>
     </div>
 </body>
