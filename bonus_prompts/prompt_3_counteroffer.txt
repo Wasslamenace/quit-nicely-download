@@ -1,0 +1,30 @@
+AI BONUS PROMPT #3: COUNTEROFFER RESPONSE
+
+Copy this into ChatGPT or Claude:
+
+---
+
+I resigned, and my manager offered me a counteroffer:
+- What they offered: [Higher salary / promotion / remote work / equity / better team / etc.]
+
+My initial decision to leave was based on:
+- Reason 1: [e.g., burnout / better opportunity elsewhere / toxic culture / lack of growth]
+- Reason 2: [e.g., compensation / work-life balance / career advancement]
+
+Generate:
+1. A diplomatic way to DECLINE the counteroffer (if I want to leave anyway)
+2. A way to ACCEPT if I'm genuinely interested (without seeming desperate)
+3. Questions to ask to evaluate if the counteroffer is genuine or just desperation
+
+---
+
+HOW TO USE:
+1. Fill in what they offered and why you originally wanted to leave
+2. Paste into ChatGPT or Claude
+3. Get diplomatic scripts for both scenarios
+4. Decide: accept or decline?
+5. Respond professionally
+
+PRO TIP: 
+Statistics show 50-80% of people who accept counteroffers leave within 6-12 months anyway. 
+Ask yourself: "Does this counteroffer fix the REAL reason I wanted to leave?"

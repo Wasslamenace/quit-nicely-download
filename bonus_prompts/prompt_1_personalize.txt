@@ -1,0 +1,26 @@
+AI BONUS PROMPT #1: PERSONALIZE STANDARD TEMPLATE
+
+Copy this into ChatGPT or Claude:
+
+---
+
+I'm resigning from my job as [Job Title] at [Company Name]. Here's my situation:
+- Reason for leaving: [new job / burnout / relocation / toxic environment / career pivot / etc.]
+- Relationship with manager: [good / neutral / tense]
+- Notice period: [2 weeks / 30 days / immediate]
+- Key achievements: [list 2-3 specific wins you had at the company]
+
+Generate a professional resignation email that:
+1. Keeps a [warm / neutral / formal] tone
+2. Mentions my achievements tactfully (without bragging)
+3. Offers to help with transition
+4. Is concise (under 200 words)
+
+---
+
+HOW TO USE:
+1. Replace all [placeholders] with your actual situation
+2. Paste into ChatGPT or Claude
+3. Review the generated email
+4. Adjust tone/wording if needed
+5. Send!
